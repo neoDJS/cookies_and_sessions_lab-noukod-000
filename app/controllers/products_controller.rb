@@ -4,5 +4,6 @@ class ProductsController < ApplicationController
   end
 
   def new
+    render 'index'
   end
 end
