@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
   helper_method :cart
 
   def cart
-    cartItems = session[:cart]||[]
+    session[:cart]||[]
   end
 end
